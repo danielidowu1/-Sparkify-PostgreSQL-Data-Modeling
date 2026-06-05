@@ -6,7 +6,7 @@ def create_database():
     host= "localhost",
     database="postgres",
     user="postgres",
-    password="Belinbos1996",
+    password="admin",
     port="5432"
     )
 
@@ -24,7 +24,7 @@ def create_database():
     host= "localhost",
     database="sparkifydb",
     user="postgres",
-    password="Belinbos1996",
+    password="admin",
     port="5432"
     )
     cur = conn.cursor()
